@@ -1,6 +1,6 @@
 let title = document.getElementById('website_title');
 
-title.innerHTML = "neuer Titel";
+title.innerHTML = "Arrays und Schleifen";
 
 document.getElementById('test_div').innerText = 'test';
 
@@ -21,13 +21,15 @@ document.getElementById('test_div').classList.remove('green_bg');   //Styling ü
 document.getElementById('task').setAttribute('type', 'title')
 document.getElementById('task').setAttribute('value', 'title2')
 
-function toggleDNone(id) {
-    document.getElementById(id).classList.toggle('d_none');
-}
+// function toggleDNone(id) {
+//     document.getElementById(id).classList.toggle('d_none');
+// }
 
 function logger() {
     console.log(555555);
     
 }
+
+document.getElementById("our_p_tag").addEventListener("click", displayDate);
 
 
